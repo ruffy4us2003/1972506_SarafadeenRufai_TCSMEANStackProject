@@ -1,0 +1,1 @@
+This is an Angular-App project. This document was created to explain the purpose and functions of this project.
