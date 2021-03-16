@@ -1,0 +1,31 @@
+p{font-family: 'Times New Roman', Times, serif; font-style: normal; color: green; 
+    text-align: center; font-size: 300%;}
+
+div{
+    
+    padding: 20px;
+    border: solid red 2px;
+    margin: 100px;
+    width: 150px;
+    height: 150px;
+    transform: scale(2, 2);
+
+    float: left;
+    
+}
+label{
+    font-family: 'Times New Roman', Times, serif; font-style: normal; color:brown; 
+    text-align: center; font-size: 150%;
+}
+h2{
+    text-align: left;
+}
+form{
+    align-items: center ;
+    padding: 20px;
+    border: solid red 2px;
+    margin: 20px;
+    width: 350px;
+    height: 200px;
+
+}
