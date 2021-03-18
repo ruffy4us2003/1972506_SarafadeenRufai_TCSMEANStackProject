@@ -1,0 +1,19 @@
+#d1{
+    padding: 2px;
+    border: solid brown 2px;
+    margin: 10px;
+    width: 1300px;
+    height: 500px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+h2{
+    text-align: center;
+    color: gold;
+    
+    
+}
+h1{
+    color: rgb(159, 255, 50);font-size: 75px;
+    background-color: rgb(68, 40, 200);text-align: center;
+}
