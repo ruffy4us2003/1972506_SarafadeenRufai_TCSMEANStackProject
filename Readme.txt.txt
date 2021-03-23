@@ -1,0 +1,1 @@
+This project is to design a Shopping Cart App.
