@@ -1,0 +1,19 @@
+<div>
+    <h2>My Portfolio</h2>
+
+    Welcome <input type="text" [value]="username" /> <br/>
+
+    Contact Name <input type="text" #info1 /> <br/>
+    Phone No. <input type="text" #info2 /> <br/>
+
+    <input type="button" value="Save" (click) = "saveDetails(info1.value, info2.value)"/>
+    <br/>
+    <hr/>
+    <h2>Contact Details</h2>
+    Name:- {{info1.value}} <br/>
+    Phone Number:- {{info2.value}}
+
+
+
+
+</div>

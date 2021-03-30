@@ -1,0 +1,19 @@
+<div>
+    
+    <h3>Registration Form</h3>
+    
+    <form [formGroup] = "signUpRef" (ngSubmit) = "signUpUser()"> 
+                
+        <label>First Name</label> <input type = "text" formControlName="fName" /> <br/>
+        <label>Last Name</label> <input type = "text" formControlName="lName"/> <br/>
+        <label>Username</label> <input type="text" formControlName="user2" /> <br/>
+        <label>Password</label> <input type="text" formControlName="pass2"/> <br/>
+        <input type="button" value="Register" />
+        <input type="button" value="Reset" /> <br/> <br/>
+
+        <br/>
+        <input type="button" value="Back To Login Page" (click) = "homePage()"/>
+
+
+    </form>
+</div>
