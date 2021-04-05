@@ -1,0 +1,102 @@
+
+[
+    {
+      "question": "Who is the Batch Owner of this TCSMEANStack Engineers?",
+      "answer": [
+         "Mr. Google", 
+         "Ms. Sumaira", 
+         "Mr. Yahoo", 
+         "Mr. Microsoft"
+        ]
+        },
+    
+     {
+      "question": "What is my nickname?",
+      "answer": [
+     "Mr. Google", 
+      "Mr. S",
+       "Ijafaralewu", 
+       "Mr. President"
+      ]
+    },
+
+    {
+      "question": "What is the name of this company?",
+      "answer":[
+       "Mr. Google", 
+       "TCS", 
+       "Mr. Yahoo", 
+       "Mr. Microsoft" 
+      ]
+    },
+
+    {
+      "question": "When did this Batch of TCSMEANStack Engineers start?",
+      "answer": [
+         "April 1st 2021",
+       "June next Year",
+       "Last Year May", 
+       "March 1st, 2021"
+      ]
+     },
+
+    {
+      "question": "What is the name of this TCS Program?",
+      "answer": [
+     "Mr. Google",
+       "ILP", 
+       "Mr. Yahoo",
+       "Mr. Microsoft"
+      ]
+     },
+
+    {
+      "question": "What is the name of the training school for this batch of TCSMEANStack Engineers?",
+      "answer": [
+       "Simplilearn", 
+       "Edureka", 
+       "Learners", 
+       "IT Guru"
+    ]
+    },
+
+    {
+      "question": "Who is the subtitute trainer for this TCSMEANStack Engineers?",
+      "answer":[
+       "Mr. Google",
+       "Mr. Kishor", 
+       "Mr. Yahoo", 
+       "Mr. Microsoft"
+      ]
+    },
+
+    {
+      "question": "Who is the main trainer of this TCSMEANStack Engineers?",
+      "answer":[
+       "Mr. Google", 
+       "Ms. Sumaira", 
+       "Mr. Akash", 
+       "Mr. Microsoft" 
+      ]
+    },
+
+    {
+      "question": "Who was the 44th President of the United States?",
+      "answer":[
+       "Mr. Google",
+       "Mr. Barack Obama",
+       "Mr. Yahoo",
+       "Mr. Microsoft"
+      ]
+    },
+
+    {
+      "question": "Who is the current President of the United States?",
+      "answer":[
+       "Mr. Google",
+       "Ms. Sumaira",
+       "Mr. Yahoo", 
+       "Mr. Joe Biden"
+      ]
+    }
+  ]

@@ -1,0 +1,39 @@
+<div>
+    <h1>Welcome To The Online Quiz!</h1>
+    <hr/>
+    <br/>
+
+    <form>
+        <div *ngFor = "let quiz of quizzes">
+            <h2>{{quiz.question}}</h2> 
+            
+        <div>
+            <ul >     
+                              <label>
+                                <input type="radio" name="option" value="option1">
+                                {{quiz.answer[0]}} <br/>
+                              </label>  
+
+                            <label>
+                                <input type="radio" name="option" value="option2">
+                                {{quiz.answer[1]}} <br/>
+                            </label>
+
+                            <label>
+                                <input type="radio" name="option" value="option3">
+                                {{quiz.answer[2]}} <br/>
+    
+                            </label>
+
+                            <label>
+                                <input type="radio" name="option" value="option4">
+                                {{quiz.answer[3]}}
+                            </label>   
+                    
+                </ul>
+            </div>
+  
+        </div>
+                <input type="submit" value="Submit Quiz" (click) = "checkAnswer()" />
+    </form>
+

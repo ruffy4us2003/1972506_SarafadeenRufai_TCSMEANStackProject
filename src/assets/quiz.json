@@ -1,0 +1,101 @@
+[
+    {
+      "question": "Who is the Batch Owner of this TCSMEANStack Engineers?",
+      "answer": [
+          { "option": "Mr. Google", "correct": false},
+        {"option": "Ms. Sumaira", "correct":true},
+        {"option": "Mr. Yahoo", "correct":false},
+        {"option": "Mr. Microsoft", "correct":false}
+        ]
+        },
+    
+     {
+      "question": "What is my nickname?",
+      "answer": [
+    { "option": "Mr. Google", "correct":false},
+     { "option": "Mr. S", "correct":false },
+      {"option": "Ijafaralewu", "correct":true},
+      {"option": "Mr. President", "correct":false}
+      ]
+    },
+
+    {
+      "question": "What is the name of this company?",
+      "answer":[
+      {"option": "Mr. Google", "correct":false},
+      {"option": "TCS", "correct":true},
+      {"option": "Mr. Yahoo", "correct":false},
+      {"option": "Mr. Microsoft", "correct":false}
+      ]
+    },
+
+    {
+      "question": "When did this Batch of TCSMEANStack Engineers start?",
+      "answer": [
+        {"option": "April 1st 2021", "correct": false},
+      {"option": "June next Year", "correct":false},
+      {"option": "Last Year May", "correct":false},
+      {"option": "March 1st, 2021", "correct":true}
+      ]
+     },
+
+    {
+      "question": "What is the name of this TCS Program?",
+      "answer": [
+    {"option": "Mr. Google", "correct":false},
+      {"option": "ILP", "correct":true},
+      {"option": "Mr. Yahoo", "correct":false},
+      {"option": "Mr. Microsoft", "correct":false}
+      ]
+     },
+
+    {
+      "question": "What is the name of the training school for this batch of TCSMEANStack Engineers?",
+      "answer": [
+      {"option": "Simplilearn", "correct":true},
+      {"option": "Edureka", "correct":false},
+      {"option": "Learners", "correct":false},
+      {"option": "IT Guru", "correct":false}
+    ]
+    },
+
+    {
+      "question": "Who is the subtitute trainer for this TCSMEANStack Engineers?",
+      "answer":[
+      {"option": "Mr. Google", "correct":false},
+      {"option": "Mr. Kishor", "correct":true},
+      {"option": "Mr. Yahoo", "correct":false},
+      {"option": "Mr. Microsoft", "correct":false}
+      ]
+    },
+
+    {
+      "question": "Who is the main trainer of this TCSMEANStack Engineers?",
+      "answer":[
+      {"option": "Mr. Google", "correct":false},
+      {"option": "Ms. Sumaira", "correct":false},
+      {"option": "Mr. Akash", "correct":true},
+      {"option": "Mr. Microsoft", "correct":false}
+      ]
+    },
+
+    {
+      "question": "Who was the 44th President of the United States?",
+      "answer":[
+      {"option": "Mr. Google", "correct":false},
+      {"option": "Mr. Barack Obama", "correct": true},
+      {"option": "Mr. Yahoo", "correct":false},
+      {"option": "Mr. Microsoft", "correct":false}
+      ]
+    },
+
+    {
+      "question": "Who is the current President of the United States?",
+      "answer":[
+      {"option": "Mr. Google", "correct":false},
+      {"option": "Ms. Sumaira", "correct":false},
+      {"option": "Mr. Yahoo", "correct":false},
+      {"option": "Mr. Joe Biden", "correct":true}
+      ]
+    }
+  ]
