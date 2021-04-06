@@ -1,0 +1,61 @@
+<div id="d1">
+    <h2 style="background-color: deepskyblue; text-align: center;">To-Do-Tasks</h2>
+
+        <form #tasksRef = "ngForm" (ngSubmit) = "storeTasks(tasksRef.value)">
+            <mat-form-field >
+                <mat-label>ID</mat-label>
+                <input matInput type="text" name = "id" ngModel />
+            </mat-form-field>
+            <!--&nbsp; //This is to break the line of the items if everything is on straighline-->
+            <br/>
+
+            <mat-form-field >
+                <mat-label>Name</mat-label>
+                <input matInput type="text" name = "name" ngModel />
+            </mat-form-field>
+            <br/>
+
+            <mat-form-field >
+                <mat-label>Task</mat-label>
+                <input matInput type="text" name = "task" ngModel />
+            </mat-form-field>
+            <br/>
+
+
+            <mat-form-field >
+                <mat-label>Deadline</mat-label>
+                <input matInput type="date" name = "date" ngModel />
+            </mat-form-field>
+            <br/>
+
+            <button mat-stroked-button color = "primary" style="background-color: yellowgreen;" type="submit">Submit</button>
+            &nbsp; &nbsp;
+            <button mat-stroked-button color = "primary" style="background-color:yellow" type="reset">Reset</button>
+                
+            
+
+        </form>
+</div>
+
+
+<hr/>
+
+<div id="d2">
+    <table>
+        <h2>To-Do-List</h2>
+        <tr>
+            <th>Emp ID</th> &nbsp;
+            <th>Name</th> &nbsp;
+            <th>Task</th> &nbsp;
+            <th>Deadline</th>
+        </tr>
+
+        <tr>
+            <td>{{userId}}</td>
+            <td>{{userName}}</td>
+            <td>{{userTask}}</td>
+            <td>{{userDeadline}}</td>
+        </tr>
+    </table>
+
+</div>

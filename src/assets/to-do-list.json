@@ -1,0 +1,52 @@
+{
+  "to-do-tasks": [
+    {
+      "id": 1,
+      "name": "Reading",
+      "task": "To read for the exams",
+      "deadline": "April 1 2021"
+    },
+    {
+      "id": "2",
+      "name": "Sharaf Rufai",
+      "task": "Lunch Break",
+      "date": "2021-04-05"
+    },
+    {
+      "id": "3",
+      "name": "Wale Rufai",
+      "task": "House Chore",
+      "date": "2022-05-20"
+    },
+    {
+      "id": "4",
+      "name": "",
+      "task": "",
+      "date": ""
+    },
+    {
+      "id": "5",
+      "name": "Furqan",
+      "task": "Day Care",
+      "date": "2021-04-06"
+    },
+    {
+      "id": "6",
+      "name": "Iswah Ruffy",
+      "task": "School Works",
+      "date": "2021-04-21"
+    },
+    {
+      "id": "7",
+      "name": "Wale Ruffy",
+      "task": "Reading Qur'an",
+      "date": "2021-04-05"
+    },
+    {
+      "id": "8",
+      "name": "Alex Koko",
+      "task": "Haircut",
+      "date": "2021-03-12"
+    }
+  ]
+}
