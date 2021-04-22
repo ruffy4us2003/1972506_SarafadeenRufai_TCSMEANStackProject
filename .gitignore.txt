@@ -1,0 +1,13 @@
+#Ignore the node mudlues' folder
+\node_modules
+File Folder
+Reports.docx
+Readme.txt
+#Ignore all Js file
+*.js
+
+#Ignore all json file
+*.json
+
+#Ignore all .png file
+*.png
