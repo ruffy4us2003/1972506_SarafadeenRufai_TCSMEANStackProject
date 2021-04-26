@@ -7,7 +7,10 @@ const server = http.createServer(app);
 const {Server} = require("socket.io");
 const io = new Server(server);
 
-const port = 9999
+const mongoClient = require('mongodb').MongoClient;
+const url = 'mongodb://localhost:27017';
+
+const port = 9990;
 
 //Create a route for the application
 
@@ -27,11 +30,47 @@ io.on('connection', (socket)=>{
 
 });
 
+//Array to hold the chat log
+// var chatLog = [];
+
 io.on('connection', (socket)=>{
     socket.on('chat message', (msg)=>{
-        console.log('Client Message: ' + msg);
+        console.log('clientMessage: ' + msg);
+
+        //Store the chatlog in an array
+         var chatLog = [];
+        
+        //let msgJson = JSON.parse(msg)
+        let chatMessage = {"clientMessage": msg};
+        let msgToString = JSON.stringify(chatMessage)
+
+        // console.log("The chatMessage before Push is: " + chatMessage.clientMessage);
+        console.log("The chatMessage before Push is: " + msgToString);
+
+        // chatLog.push(chatMessage);
+        chatLog.push(msgToString);
+
+        console.log("The chatLog after PUSH contains: " + chatLog.toString() );
+
+        let chatLogJson = JSON.parse(chatLog);
+
+        mongoClient.connect(url, {useUnifiedTopology: true}, (err1, client)=>{
+            if(!err1){
+                let db = client.db("chatlog");
+
+                db.collection("ChatCollection").insertMany(chatLogJson, (err2, result)=>{
+                    if(!err2){
+                        console.log("The records were successfully recorded in mongoDB: " + result.insertedCount );
+                    } else{
+                        console.log("Error occurred " + err2);
+                    }
+                })
+            }
+        })
     });
 });
+
+// console.log("The final chat records: " + chatLog.toString());
 
 
 server.listen(port, ()=>{
